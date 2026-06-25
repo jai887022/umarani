@@ -15,7 +15,7 @@ export default function SyllabusSection({ onEnrollClick, onPreviewLesson, hasAcc
     {
       id: "mod-1",
       title: "Module 1: Canva Fundamentals & Getting Started",
-      titleTa: "கேன்பா அறிமுகம் மற்றும் கணக்கு துவங்குதல்",
+      titleTa: "Canva அறிமுகம் மற்றும் கணக்கு துவங்குதல்",
       lessons: [
         { id: "les-1", title: "Introduction to Canva & UI Tour", titleTa: "கேன்பா அறிமுகம் மற்றும் அமைப்புகள்", duration: "12:15", description: "Discover the Canva environment, tools workspace, and how to set up your free account.", unlocked: true, videoUrl: "https://www.w3schools.com/html/mov_bbb.mp4" }
       ]
@@ -123,8 +123,7 @@ export default function SyllabusSection({ onEnrollClick, onPreviewLesson, hasAcc
                   className="w-full px-5 py-4 flex items-center justify-between hover:bg-slate-900/60 transition-colors text-left"
                 >
                   <div className="space-y-1">
-                    <p className="text-xs font-semibold text-cyan-400 font-sans tracking-wide">{mod.title}</p>
-                    <h3 className="text-sm font-bold text-slate-200">{mod.titleTa}</h3>
+                    <h3 className="text-sm font-bold text-slate-200">{mod.title}</h3>
                   </div>
                   <div className="flex items-center space-x-2 text-slate-500 ml-4 shrink-0">
                     <span className="text-[11px] bg-slate-900 px-2 py-0.5 rounded-full text-slate-400 font-semibold border border-slate-800">

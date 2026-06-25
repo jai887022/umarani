@@ -561,12 +561,6 @@ export default function App() {
                 <div className="bg-gradient-to-tr from-cyan-400/80 via-[#00C4CC]/50 to-indigo-500/10 rounded-2xl p-[1px] hover:scale-[1.03] hover:shadow-cyan-500/10 hover:shadow-lg transition-all duration-300 group relative">
                   <div className="bg-slate-950/95 rounded-[15px] p-6 text-center h-full relative overflow-hidden flex flex-col items-center justify-center">
                     <div className="absolute top-0 left-0 w-full h-0.5 bg-gradient-to-r from-transparent via-cyan-400/20 to-transparent" />
-                    <img 
-                      src="/src/assets/images/stat_students_1781848662838.jpg" 
-                      alt="Students Icon" 
-                      className="w-14 h-14 rounded-xl object-cover border border-white/10 shadow-md mb-3 group-hover:scale-110 transition-transform duration-300"
-                      referrerPolicy="no-referrer"
-                    />
                     <p className="text-3xl sm:text-4xl font-extrabold text-[#00C4CC] tracking-tight">2400+</p>
                     <p className="text-[10px] mt-2 text-white/50 uppercase tracking-widest font-bold">Students Enrolled</p>
                   </div>
@@ -576,12 +570,6 @@ export default function App() {
                 <div className="bg-gradient-to-tr from-amber-400/80 via-yellow-500/50 to-indigo-500/10 rounded-2xl p-[1px] hover:scale-[1.03] hover:shadow-indigo-500/10 hover:shadow-lg transition-all duration-300 group relative">
                   <div className="bg-slate-950/95 rounded-[15px] p-6 text-center h-full relative overflow-hidden flex flex-col items-center justify-center">
                     <div className="absolute top-0 left-0 w-full h-0.5 bg-gradient-to-r from-transparent via-indigo-400/20 to-transparent" />
-                    <img 
-                      src="/src/assets/images/stat_rating_1781848676051.jpg" 
-                      alt="Rating Icon" 
-                      className="w-14 h-14 rounded-xl object-cover border border-white/10 shadow-md mb-3 group-hover:scale-110 transition-transform duration-300"
-                      referrerPolicy="no-referrer"
-                    />
                     <p className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">4.9/5</p>
                     <p className="text-[10px] mt-2 text-white/50 uppercase tracking-widest font-bold">Average Google Rating</p>
                   </div>
@@ -591,12 +579,6 @@ export default function App() {
                 <div className="bg-gradient-to-tr from-[#00C4CC]/80 via-teal-500/50 to-cyan-500/10 rounded-2xl p-[1px] hover:scale-[1.03] hover:shadow-[#00C4CC]/10 hover:shadow-lg transition-all duration-300 group relative">
                   <div className="bg-slate-950/95 rounded-[15px] p-6 text-center h-full relative overflow-hidden flex flex-col items-center justify-center">
                     <div className="absolute top-0 left-0 w-full h-0.5 bg-gradient-to-r from-transparent via-[#00C4CC]/20 to-transparent" />
-                    <img 
-                      src="/src/assets/images/stat_tamil_1781848689166.jpg" 
-                      alt="Tamil Icon" 
-                      className="w-14 h-14 rounded-xl object-cover border border-white/10 shadow-md mb-3 group-hover:scale-110 transition-transform duration-300"
-                      referrerPolicy="no-referrer"
-                    />
                     <p className="text-3xl sm:text-4xl font-extrabold bg-gradient-to-r from-cyan-400 to-[#00C4CC] bg-clip-text text-transparent tracking-tight">100%</p>
                     <p className="text-[10px] mt-2 text-[#00C4CC]/70 uppercase tracking-widest font-bold">Tamil Instruction</p>
                   </div>
@@ -606,12 +588,6 @@ export default function App() {
                 <div className="bg-gradient-to-tr from-purple-400/80 via-indigo-500/50 to-cyan-500/10 rounded-2xl p-[1px] hover:scale-[1.03] hover:shadow-purple-500/10 hover:shadow-lg transition-all duration-300 group relative">
                   <div className="bg-slate-950/95 rounded-[15px] p-6 text-center h-full relative overflow-hidden flex flex-col items-center justify-center">
                     <div className="absolute top-0 left-0 w-full h-0.5 bg-gradient-to-r from-transparent via-purple-400/20 to-transparent" />
-                    <img 
-                      src="/src/assets/images/stat_material_1781848701507.jpg" 
-                      alt="Material Icon" 
-                      className="w-14 h-14 rounded-xl object-cover border border-white/10 shadow-md mb-3 group-hover:scale-110 transition-transform duration-300"
-                      referrerPolicy="no-referrer"
-                    />
                     <p className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">40+ Hrs</p>
                     <p className="text-[10px] mt-2 text-white/50 uppercase tracking-widest font-bold">Practical Material</p>
                   </div>
@@ -635,12 +611,8 @@ export default function App() {
               {/* Premium Canva Templates Mockup Showcase */}
               <div className="mt-16 pt-12 border-t border-white/5 space-y-8">
                 <div className="text-center space-y-2">
-                  <div className="inline-flex items-center space-x-2 px-3 py-1 bg-gradient-to-r from-teal-500/10 to-[#00C4CC]/10 border border-[#00C4CC]/30 rounded-full text-[10px] font-black text-[#00C4CC] uppercase tracking-widest">
-                    <Sparkles className="w-3.5 h-3.5 animate-spin" style={{ animationDuration: '3s' }} />
-                    <span>Instant Templates Giveaway Bundle (₹3,500 Valued)</span>
-                  </div>
                   <h3 className="text-2xl sm:text-3xl font-extrabold tracking-tight text-white">
-                    மாணவர்கள் பெறும் <span className="bg-gradient-to-r from-[#00C4CC] via-indigo-400 to-purple-400 bg-clip-text text-transparent font-black">பிரீமியம் கேன்பா</span> டெம்ப்ளேட்கள்
+                    மாணவர்கள் பெறும் <span className="bg-gradient-to-r from-[#00C4CC] via-indigo-400 to-purple-400 bg-clip-text text-transparent font-black">Premium Canva</span> டெம்ப்ளேட்கள்
                   </h3>
                   <p className="text-xs text-slate-400 max-w-xl mx-auto leading-relaxed">
                     தயாராக வடிவமைக்கப்பட்ட தமிழ் திருவிழா வாழ்த்துகள், யூடியூப் தம்ப்நெயில்ஸ், விசிட்டிங் கார்டு மற்றும் இன்ஸ்டாகிராம் ரீல்ஸ் டெம்ப்ளேட்கள் உங்கள் வர்த்தகத்தை உயர்த்த உதவும்.
@@ -778,6 +750,20 @@ export default function App() {
                     </div>
                   </div>
                 ))}
+              </div>
+
+              <div className="mt-10 flex flex-col items-center">
+                <button
+                  onClick={() => {
+                    setCheckoutStep("form");
+                    setShowCheckout(true);
+                  }}
+                  id="middle-enroll-btn"
+                  className="px-8 py-4 bg-gradient-to-r from-cyan-400 via-[#00C4CC] to-indigo-500 hover:from-cyan-500 hover:to-indigo-600 text-slate-950 hover:text-white rounded-xl text-sm sm:text-base font-extrabold transition-all tracking-wide flex items-center justify-center space-x-2 cursor-pointer shadow-lg shadow-cyan-500/20 active:scale-95"
+                >
+                  <Sparkles className="w-5 h-5 animate-pulse" />
+                  <span>Enroll Now (₹499 Only!)</span>
+                </button>
               </div>
 
             </div>
